@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
 body{
     margin: 0px;
     padding: 0px;
     background-color: #f8faff;
+}
+a{
+    text-decoration: none;
 }
 .header{
     height: 80px;
@@ -40,7 +42,7 @@ body{
 .macTabButtonsContainer{
     height: 14px;
     margin-top: 6px;
-    display: flex;  
+    display: flex;
 }
 .macTabButtons{
     height: 12px;
@@ -57,4 +59,41 @@ body{
 }
 .greenButton{
     background-color: #10b981;
+}
+.runButtonText{
+    display: inline;
+    font-family: Tahoma, sans-serif;
+    font-weight: 100;
+    color: #8b909b;
+    font-size: 10px;
+    margin: 0px;
+}
+.runButton{
+    height: 14px;
+    width: 14px;
+    margin-left: 3px;
+    border-radius: 0px;
+    margin-right: 14px;
+    background-image: url(/projects/website/images/run.svg);
+    background-size: 200%;
+    background-position: center;  
+    filter: invert(71%) sepia(1%) saturate(4232%) hue-rotate(185deg) brightness(82%) contrast(72%);
+}
+.mabTabTitle{
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+    margin: auto;
+}
+.test{
+   display: flex;
+}
+.test:hover{
+    cursor: pointer;
+}
+.test:hover .runButtonText{
+    color: #c8cbd0;
+}
+.test:hover .runButton{
+    filter: invert(95%) sepia(8%) saturate(145%) hue-rotate(179deg) brightness(92%) contrast(77%);
 }

@@ -7,7 +7,4 @@ factorial x =
 
 main :: IO()
 main = do
-    print "Digite um numero inteiro na caixa Stdin Inputs"
-    input <- getLine
-    let inputInt = (read input :: Int)
-    print(factorial inputInt)
+    print(factorial 5)
