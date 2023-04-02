@@ -28,6 +28,7 @@ body{
     height: 300px;
     width: 400px;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.300) 0px 5px 10px;
 }
 .macTabHeader{
     background-color: #111827;
