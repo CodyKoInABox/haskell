@@ -74,7 +74,7 @@ a{
     margin-left: 3px;
     border-radius: 0px;
     margin-right: 14px;
-    background-image: url("/projects/website/images/run.svg");
+    background-image: url("./projects/website/images/run.svg");
     background-size: 200%;
     background-position: center;  
     filter: invert(71%) sepia(1%) saturate(4232%) hue-rotate(185deg) brightness(82%) contrast(72%);
