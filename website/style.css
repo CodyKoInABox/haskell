@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Consolas;
+    src: url(consola.tff);
+}
 body{
     margin: 0px;
     padding: 0px;
@@ -96,4 +100,28 @@ a{
 }
 .test:hover .runButton{
     filter: invert(95%) sepia(8%) saturate(145%) hue-rotate(179deg) brightness(92%) contrast(77%);
+}
+.code{
+    font-family: Consolas;
+    color: #CCCAC2;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.codeFunction{
+    color: #FFD173;
+}
+.codeOperator{
+    color: #F29E74;
+}
+.codeKeyword{
+    color: #FFAD66;
+}
+.codeEntity{
+    color: #73D0FF;
+}
+.codeString{
+    color: #D5FF80;
+}
+.codeComment{
+    color: #B8CFE680;
 }
