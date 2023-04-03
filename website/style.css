@@ -125,3 +125,6 @@ a{
 .codeComment{
     color: #B8CFE680;
 }
+.codeConstant{
+    color: #DFBFFF;
+}
