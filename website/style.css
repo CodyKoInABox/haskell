@@ -156,3 +156,6 @@ a{
     line-height: 1px;
     margin-top: 17px;
 }
+.input:hover ~ .codeComment{
+    text-decoration: underline;
+}
