@@ -1,7 +1,9 @@
-function run(element){
-    let input1
-    let input2
-    let input3
+// `...inputs` is an array of variable length args
+function run(element, ...inputs){
+    // initializing input variables from args
+    let input1 = inputs[0]
+    let input2 = inputs[1]
+    let input3 = inputs[2]
     let id
     try{
         id = element.id;
