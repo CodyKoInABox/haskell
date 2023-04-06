@@ -29,8 +29,8 @@ addEventListeners()
 
 
 
-function helloWorld(input){
-    return input
+function helloWorld(){
+    return "Hello, World!"
 }
 
 function leapYear(year){
