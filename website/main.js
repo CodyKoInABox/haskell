@@ -20,7 +20,17 @@ function inRange(min, max, x){
 }
 
 
-function run(element, input1, input2, input3){
-    document.getElementById(element.id + 'Output').innerHTML = "&nbsp&nbsp > " + window[element.id](input1, input2, input3); 
-    //console.log(window[element.id](input1, input2, input3));
+function run(element){
+    let input1
+    let input2
+    let input3
+    let id
+    try{
+        id = element.id;
+        input1 = parseInt(document.getElementById(id + 'Input1').textContent)
+        input2 = parseInt(document.getElementById(id + 'Input2').textContent)
+        input3 = parseInt(document.getElementById(id + 'Input3').textContent)
+    }
+    catch{}
+    document.getElementById(id + 'Output').innerHTML = "&nbsp&nbsp > " + window[id](input1, input2, input3);
 }
