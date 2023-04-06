@@ -24,9 +24,9 @@
                     <div class="macTabButtons yellowButton"></div>
                     <div class="macTabButtons greenButton"></div>
                     <a href="https://github.com/CodyKoInABox/haskell/blob/main/helloWorld.hs" target="_blank" class="mabTabTitle">helloWorld.hs</a>
-                    <span class="test">
+                    <span class="test" id="helloWorld" onClick='run(this, "\"Hello, World!\"")'>
                     <p class="runButtonText">Run</p>
-                    <div class="runButton"></div>
+                    <div class="runButton" id="helloWorld"></div>
                 </span>
                 </div>
             </div>
@@ -41,6 +41,10 @@
                 main <span class="codeOperator">=</span><span class="codeKeyword"> do</span> <br>
                 &nbsp helloWorld <br>
             </p>
+            <div class="terminalOutline">
+                <p class="terminalTitle">TERMINAL</p>
+                <p class="output" id="helloWorldOutput">&nbsp</p>
+            </div>
         </div>
         <div class="macTab">
             <div class="macTabHeader">
@@ -49,7 +53,7 @@
                     <div class="macTabButtons yellowButton"></div>
                     <div class="macTabButtons greenButton"></div>
                     <a href="https://github.com/CodyKoInABox/haskell/blob/main/leapYear.hs" target="_blank" class="mabTabTitle">leapYear.hs</a>
-                    <span class="test">
+                    <span class="test" id="leapYear" onClick="run(this, 1996)">
                     <p class="runButtonText">Run</p>
                     <div class="runButton"></div>
                 </span>
@@ -65,6 +69,10 @@
                 main <span class="codeOperator">=</span><span class="codeKeyword"> do</span> <br>
                 &nbsp print<span class="codeFunction">(</span>isLeapYear <span class="codeConstant">1996</span><span class="codeFunction">)</span> <br>
                 </p>
+                <div class="terminalOutline">
+                    <p class="terminalTitle">TERMINAL</p>
+                    <p class="output" id="leapYearOutput">&nbsp</p>
+                </div>
         </div>
         <div class="macTab">
             <div class="macTabHeader">
@@ -73,7 +81,7 @@
                     <div class="macTabButtons yellowButton"></div>
                     <div class="macTabButtons greenButton"></div>
                     <a href="https://github.com/CodyKoInABox/haskell/blob/main/factorial.hs" target="_blank" class="mabTabTitle">factorial.hs</a>
-                    <span class="test">
+                    <span class="test" id="factorial" onClick="run(this, 5)">
                     <p class="runButtonText">Run</p>
                     <div class="runButton"></div>
                 </span>
@@ -91,6 +99,10 @@
                     main <span class="codeOperator">=</span><span class="codeKeyword"> do</span> <br>
                     &nbsp    print<span class="codeFunction">(</span>factorial <span class="codeConstant">5</span><span class="codeFunction">)</span><br>
             </p>
+            <div class="terminalOutline">
+                <p class="terminalTitle">TERMINAL</p>
+                <p class="output" id="factorialOutput">&nbsp</p>
+            </div>
         </div>
         <div class="macTab">
             <div class="macTabHeader">
@@ -99,7 +111,7 @@
                     <div class="macTabButtons yellowButton"></div>
                     <div class="macTabButtons greenButton"></div>
                     <a href="https://github.com/CodyKoInABox/haskell/blob/main/inRange.hs" target="_blank" class="mabTabTitle">inRange.hs</a>
-                    <span class="test">
+                    <span class="test" id="inRange" onClick="run(this, 5, 15, 10)">
                     <p class="runButtonText">Run</p>
                     <div class="runButton"></div>
                 </span>
@@ -114,6 +126,10 @@
                 main <span class="codeOperator">=</span><span class="codeKeyword"> do</span> <br>
                 &nbsp    print<span class="codeFunction">(</span>inRange <span class="codeConstant">5 15 10</span><span class="codeFunction">)</span><br>
             </p>
+            <div class="terminalOutline">
+                <p class="terminalTitle">TERMINAL</p>
+                <p class="output" id="inRangeOutput">&nbsp</p>
+            </div>
         </div>
     </div>
 </body>
