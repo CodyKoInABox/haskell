@@ -10,7 +10,9 @@ function run(element){
         input3 = parseInt(document.getElementById(id + 'Input3').textContent)
     }
     catch{}
-    document.getElementById(id + 'Output').innerHTML = "&nbsp&nbsp > " + window[id](input1, input2, input3)
+    finally{
+        document.getElementById(id + 'Output').innerHTML = "&nbsp&nbsp > " + window[id](input1, input2, input3)
+    }
 }
 
 //event listener to prevent user from inputing strings instead of numbers and stuff like that
@@ -29,8 +31,8 @@ addEventListeners()
 
 
 
-function helloWorld(input){
-    return input
+function helloWorld(){
+    document.getElementById('helloWorldOutput').innerHTML = "&nbsp&nbsp > " + '"Hello, World!"';
 }
 
 function leapYear(year){
